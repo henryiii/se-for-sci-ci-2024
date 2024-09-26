@@ -8,4 +8,4 @@ def test_compare():
     assert a.x == b.x
     assert a.y == b.y
     assert a == b
-    assert repr(a) == "Vector()"
+    assert repr(a) == "Vector(x=1, y=2)"
