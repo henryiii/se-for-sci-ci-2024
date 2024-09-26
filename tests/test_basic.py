@@ -9,3 +9,4 @@ def test_compare():
     assert a.y == b.y
     assert a == b
     assert repr(a) == "Vector(x=1, y=2)"
+    assert a != example.Vector(2, 2)
